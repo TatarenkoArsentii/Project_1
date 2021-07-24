@@ -2,7 +2,8 @@ p { color: rgb(38, 0, 128);
     font-size: 25px; 
     font-family:Arial, Helvetica, sans-serif; 
     background-color: #d22709; text-align: center; 
-    border: solid black 2px; box-shadow: black 10px 5px 5px; 
+    border: solid black 2px; 
+    box-shadow: black 10px 5px 5px; 
     font-weight: bold;
 }
 
@@ -14,5 +15,25 @@ p:hover {
 }
 
 h2 {
-    color: rgba(22, 18, 212,0.4 );
+    color: rgba(22, 18, 212,0.4);
+}
+#h4{
+    color: red;
+}
+#h5,#h6{
+    color: yellow;
+}
+
+.mark1{
+    color: yellowgreen;
+    background-color: tomato;
+}
+
+.mark2{
+    color: teal;
+    background-color: red;
+}
+
+.bigFont{
+    font-size: 30px;
 }
